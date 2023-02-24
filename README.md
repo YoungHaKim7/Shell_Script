@@ -16,7 +16,7 @@
         <td>char✨</td>
         <td>Escape </td>
         <td>16진수Hx</td>
-        <td>설명</td>
+        <td>details설명</td>
         <td>10진수Dec</td>
         <td>8진수Oct</td>
         <td>2진수Binary</td>
