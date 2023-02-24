@@ -1,5 +1,7 @@
 # Shell_Script
 
+- https://www.guru99.com/introduction-to-shell-scripting.html
+
 # ASCII Table(16진수로 외우자)
 
 - https://www.asciitable.com/
