@@ -81,19 +81,21 @@ https://github.com/YoungHaKim7/silq_project
 
 <table border="1">
     <tr>
-    <td colspan="4" align="center">양자 코딩  자주 쓰는 Unicode</td>
+    <td colspan="5" align="center">양자 코딩  자주 쓰는 Unicode</td>
     </tr>
     <tr align="center">
         <td>Symbol</td>
         <td>Unicode(Hex)</td>
         <td>LaTeX ShortCut</td>
         <td>Name</td>
+        <td>10진수Dec</td>
     </tr>
     <tr align="center">
         <td>→</td>
         <td>2192</td>
         <td>\to</td>
         <td>Rightwards Arrow</td>
+        <td>8594</td>
     </td>
     </tr>
     <tr align="center">
@@ -101,6 +103,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>2115</td>
         <td>\bn</td>
         <td>Double-Struck Capital N</td>
+        <td>8469</td>
     </td>
     </tr>
     <tr align="center">
@@ -108,6 +111,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>211D</td>
         <td>\br</td>
         <td>Double-Struck Capital R</td>
+        <td>8477</td>
     </td>
     </tr>
     <tr align="center">
@@ -115,6 +119,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>3A0</td>
         <td>\pi</td>
         <td>Greek Capital Letter Pi</td>
+        <td>928</td>
     </td>
     </tr>
     <tr align="center">
@@ -122,6 +127,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>1D539</td>
         <td>\bb</td>
         <td>Mathematical Double-Struck Capital B</td>
+        <td>120121</td>
     </td>
     </tr>
     <tr align="center">
@@ -129,6 +135,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>22C5</td>
         <td>\cdot</td>
         <td>Dot Operator</td>
+        <td>8901</td>
     </td>
     </tr>
     <tr align="center">
@@ -136,6 +143,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>398</td>
         <td>\theta</td>
         <td>Greek Capital Letter Theta</td>
+        <td>920</td>
     </td>
     </tr>
     <tr align="center">
@@ -143,6 +151,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>3A8</td>
         <td>\psi</td>
         <td>Greek Capital Letter PSI</td>
+        <td>936</td>
     </td>
     </tr>
     <tr align="center">
@@ -150,6 +159,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>39B</td>
         <td>\lambda</td>
         <td>Greek Capital Letter LAMDA</td>
+        <td>923</td>
     </td>
     </tr>
     <tr align="center">
@@ -157,6 +167,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>AC</td>
         <td>\neg</td>
         <td>Not Sign</td>
+        <td>172</td>
     </td>
     </tr>
     <tr align="center">
@@ -164,6 +175,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>D7</td>
         <td>\times</td>
         <td>Multiplication Sign</td>
+        <td>215</td>
     </td>
     </tr>
     <tr align="center">
@@ -171,6 +183,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>B1</td>
         <td>\pm</td>
         <td>Plus-Minus Sign</td>
+        <td>177</td>
     </td>
     </tr>
     <tr align="center">
@@ -178,6 +191,7 @@ https://github.com/YoungHaKim7/silq_project
         <td>1D7D9</td>
         <td>\b1</td>
         <td>Mathematical Double-Struck Digit One</td>
+        <td>120793</td>
     </td>
     </tr>
 </table>
