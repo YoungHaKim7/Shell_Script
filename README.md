@@ -4,6 +4,8 @@
 
 # ASCII Table(16진수로 외우자)
 
+- https://www.asciitable.xyz/
+
 - https://www.asciitable.com/
 
 - https://learn.microsoft.com/en-us/cpp/c-language/octal-and-hexadecimal-character-specifications?view=msvc-170
@@ -16,7 +18,7 @@
         <td>char✨</td>
         <td>Escape </td>
         <td>16진수Hx</td>
-        <td>설명Details</td>
+        <td>설명Description</td>
         <td>10진수Dec</td>
         <td>8진수Oct</td>
         <td>2진수Binary</td>
@@ -47,6 +49,15 @@
         <td>32</td>
         <td>040</td>
         <td>b101000</td>
+    </tr>
+    <tr align="center">
+        <td>`</td>
+        <td>\x60</td>
+        <td>0x60</td>
+        <td>Backtic, Grave</td>
+        <td>96</td>
+        <td>0140</td>
+        <td>b1100000</td>
     </tr>
 </table>
 
