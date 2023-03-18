@@ -68,3 +68,7 @@ Consider using `-Weverything` and disabling the few warnings you need to on Clan
 - `-Weffc++` warning mode can be too noisy, but if it works for your project, use it also.
 
 https://github.com/cpp-best-practices/cppbestpractices/blob/master/02-Use_the_Tools_Available.md
+
+# C++ compiling & linking
+
+https://www.cprogramming.com/compilingandlinking.html
