@@ -73,4 +73,6 @@ https://github.com/cpp-best-practices/cppbestpractices/blob/master/02-Use_the_To
 
 https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work
 
+https://www.learncpp.com/cpp-tutorial/introduction-to-the-compiler-linker-and-libraries/
+
 https://www.cprogramming.com/compilingandlinking.html
