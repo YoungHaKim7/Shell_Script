@@ -2,10 +2,10 @@
 
 ARM Aseembly(M1 Pro MacBook test)
 
-````
+```
 $ gcc -std=c++11 -Wall -Wextra -ggdb -c main.cpp
 
-$ objdump --disassemble -S -C main.o```
+$ objdump --disassemble -S -C main.o
 
 $ objdump --disassemble -S -C main.o | grep "main" -A 15 -B 15
 
@@ -30,4 +30,4 @@ Disassembly of section __TEXT,__text:
       2c: e1 03 00 aa  	mov	x1, x0
       30: 00 00 00 90  	adrp	x0, 0x0 <ltmp0+0x30>
       34: 00 00 40 f9  	ldr	x0, [x0]
-````
+```
