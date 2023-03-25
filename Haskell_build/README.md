@@ -1,5 +1,7 @@
 # My Haskell
 
+https://github.com/YoungHaKim7/Haskell_Lang
+
 # ghc 로 컴파일 하고 실행 파일 만들어서 실행하기
 
 ```
@@ -31,6 +33,8 @@ $ ./haskell-tut
 
 ghc main.hs -threaded
 ```
+
+https://stackoverflow.com/questions/35477808/haskell-create-thread-write-to-screen-sleep-thread-write-something-else-to
 
 # haskell code 예시
 
