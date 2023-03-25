@@ -36,6 +36,8 @@ ghc main.hs -threaded
 
 - 간단한 하스켈 코드
 
+- haskell-tut.hs
+
 ```
 import Data.List
 import System.IO
