@@ -36,6 +36,25 @@ ghc main.hs -threaded
 
 https://stackoverflow.com/questions/35477808/haskell-create-thread-write-to-screen-sleep-thread-write-something-else-to
 
+## haskell
+
+- main.hs
+
+```
+import Control.Concurrent (threadDelay)
+import System.IO (hFlush, stdout)
+
+main :: IO ()
+main = do
+  let chars = ['-', '\\', '|', '/']
+  let loop i = do
+        putStr $ [chars !! (i `mod` length chars)] ++ "\r"
+        hFlush stdout -- flush output buffer
+        threadDelay 200000
+        loop (i + 1)
+  loop 0
+```
+
 # haskell code 예시
 
 - 간단한 하스켈 코드
