@@ -42,8 +42,8 @@ https://www.regexpal.com/
         <td>0xA</td>
         <td>NL line feed, new line</td>
         <td>10</td>
-        <td>012</td>
-        <td>b1010</td>
+        <td>0o12</td>
+        <td>0b1010</td>
     </tr>
     <tr align="center">
         <td>!</td>
@@ -51,8 +51,8 @@ https://www.regexpal.com/
         <td>0x21</td>
         <td>Exclamation mark</td>
         <td>33</td>
-        <td>041</td>
-        <td>b101001</td>
+        <td>0o41</td>
+        <td>0b101001</td>
     </tr>
     <tr align="center">
         <td>Space</td>
@@ -60,8 +60,8 @@ https://www.regexpal.com/
         <td>0x20</td>
         <td>Space</td>
         <td>32</td>
-        <td>040</td>
-        <td>b101000</td>
+        <td>0o40</td>
+        <td>0b101000</td>
     </tr>
     <tr align="center">
         <td>`</td>
@@ -69,8 +69,8 @@ https://www.regexpal.com/
         <td>0x60</td>
         <td>Backtic, Grave</td>
         <td>96</td>
-        <td>0140</td>
-        <td>b1100000</td>
+        <td>0o140</td>
+        <td>0b1100000</td>
         <td>U+0060 <br>`<br> GRAVE ACCENT</td>
     </tr>
 </table>
