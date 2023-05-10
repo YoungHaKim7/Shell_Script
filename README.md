@@ -202,8 +202,26 @@ https://github.com/YoungHaKim7/silq_project
 
 <br>
 
-# Etc
+# Memory 2, 8 , 16 pattern
 
-- The Verilog hardware description language
+<table border="1">
+    <tr>
+    <td colspan="" align="center"></a>주로 쓰는 ascii & Unicode 정리</td>
+    </tr>
+    <tr align="center">
+        <td>16진수Hx</td>
+        <td>설명Description</td>
+        <td>10진수Dec</td>
+        <td>8진수Oct</td>
+        <td>2진수Binary</td>
+    </tr>
+        <tr align="center">
+        <td>0xff</td>
+        <td>설명Description</td>
+        <td>255</td>
+        <td>0o377</td>
+        <td>0b11111111</td>
+    </tr>
+</table>
 
-https://www.eng.auburn.edu/~nelsovp/courses/elec4200/VHDL/Verilog_Overview_4200.pdf
+<br>
