@@ -206,7 +206,7 @@ https://github.com/YoungHaKim7/silq_project
 
 <table border="1">
     <tr>
-    <td colspan="" align="center"></a>주로 쓰는 ascii & Unicode 정리</td>
+    <td colspan="5" align="center"></a>Binary vs  Octal vs Decimal vs Hexadecimal</td>
     </tr>
     <tr align="center">
         <td>16진수Hx</td>
@@ -217,7 +217,7 @@ https://github.com/YoungHaKim7/silq_project
     </tr>
         <tr align="center">
         <td>0xff</td>
-        <td>설명Description</td>
+        <td></td>
         <td>255</td>
         <td>0o377</td>
         <td>0b11111111</td>
