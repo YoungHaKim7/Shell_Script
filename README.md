@@ -52,7 +52,7 @@ https://www.regexpal.com/
         <td>Exclamation mark</td>
         <td>33</td>
         <td>0o41</td>
-        <td>0b101001</td>
+        <td>0b00100001</td>
     </tr>
     <tr align="center">
         <td>Space</td>
@@ -61,7 +61,7 @@ https://www.regexpal.com/
         <td>Space</td>
         <td>32</td>
         <td>0o40</td>
-        <td>0b101000</td>
+        <td>0b00100000</td>
     </tr>
     <tr align="center">
         <td>`</td>
