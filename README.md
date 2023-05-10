@@ -46,15 +46,6 @@ https://www.regexpal.com/
         <td>0b1010</td>
     </tr>
     <tr align="center">
-        <td>!</td>
-        <td>\x21</td>
-        <td>0x21</td>
-        <td>Exclamation mark</td>
-        <td>33</td>
-        <td>0o41</td>
-        <td>0b00100001</td>
-    </tr>
-    <tr align="center">
         <td>Space</td>
         <td>\x20</td>
         <td>0x20</td>
@@ -62,6 +53,15 @@ https://www.regexpal.com/
         <td>32</td>
         <td>0o40</td>
         <td>0b00100000</td>
+    </tr>
+    <tr align="center">
+        <td>!</td>
+        <td>\x21</td>
+        <td>0x21</td>
+        <td>Exclamation mark</td>
+        <td>33</td>
+        <td>0o41</td>
+        <td>0b00100001</td>
     </tr>
     <tr align="center">
         <td>`</td>
