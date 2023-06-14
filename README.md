@@ -1,3 +1,11 @@
+# xxd 사용법
+
+- https://twpower.github.io/122-xxd-command-usage
+
+  - https://linux.die.net/man/1/xxd
+
+<hr>
+
 # Regular Expression
 
 https://www.regexpal.com/
