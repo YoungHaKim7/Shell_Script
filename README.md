@@ -1,3 +1,9 @@
+# shell명령어 정리잘됨.commands.dev
+
+https://www.commands.dev/
+
+<hr>
+
 # xxd 사용법
 
 - https://twpower.github.io/122-xxd-command-usage
