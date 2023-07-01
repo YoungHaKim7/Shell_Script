@@ -30,8 +30,73 @@ https://github.com/ohmyzsh/ohmyzsh
 https://github.com/romkatv/powerlevel10k
 
 - 5. bashrc 설정 최상단에 추가
+```bash
+exec zsh
+```
  
-  6. 
+- 6. 터미널에서 zsh 치면 설정화면 나옴 ```.zshrc``` 설정 끝내고 Plugins 추가
+```bash
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git
+    # other plugins..
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+    z
+    fzf # 필요하면 추가하세요
+    fasd # 필요하면 추가하세요
+)
+```
+
+- 7. 설정 끝내고 Plugins 추가
+```bash
+cd .oh-my-zsh/plugins
+```
+plugins폴더 들어가서
+
+git clone 으로 강제로 넣어주기
+
+
+zsh-z
+https://github.com/agkozak/zsh-z
+
+https://github.com/zsh-users/zsh-autosuggestions
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
+- 8. path 관리는
+
+.zshrc 에서 할 예정
+
+```bash
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+
+
+
+끝은 :$PATH로 끝내고 그 사이에 폴더 넣고 : 으로 분리한다.
+
+
+내 설정
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:$HOME/.zig:$HOME/zls:$PATH:
+```
+
+- 9. 내가 세팅한 PATH확인방법
+
+```bash
+$PATH
+```
+
+https://github.com/YoungHaKim7/rust_vim_setting
+
+dotfiles_linux/참조하세요
+
+
 
 <br>
 
