@@ -1,3 +1,42 @@
+# Power10k Install
+
+https://economiceco.tistory.com/m/16511
+
+- 1. sudo apt install zsh
+
+```
+$ sudo apt install zsh
+```
+
+- 2. Nerd Font설치
+
+https://github.com/romkatv/powerlevel10k#fonts
+
+- . ohmyzsh설치
+
+https://ohmyz.sh/
+
+https://ohmyz.sh/#install
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+ohmyzsh github
+https://github.com/ohmyzsh/ohmyzsh
+
+- 4. power10k설치
+
+https://github.com/romkatv/powerlevel10k
+
+- 5. bashrc 설정 최상단에 추가
+ 
+  6. 
+
+<br>
+
+<hr>
+
 # shell명령어 정리잘됨.commands.dev
 
 https://www.commands.dev/
