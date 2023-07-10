@@ -1,5 +1,8 @@
 # [Linux] tmux 사용법 
 
+- tmux 세팅
+  - https://github.com/YoungHaKim7/rust_vim_setting
+
 - tmux 구성 요소
 
   - session: 여러 윈도우로 구성
