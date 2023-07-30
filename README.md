@@ -13,13 +13,13 @@ echo "pkg/" >> .gitignore
 # TypeScript .gitignore
 
 ```bash
-echo "node_modules/" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "package-lock.lock" >> .gitignore
-echo ".vscode/" >> .gitignore
-echo "dist/" >> .gitignore
-echo "pkg/" >> .gitignore
-echo "build/" >> .gitignore
+echo "node_modules/" >> .gitignore &&
+echo ".DS_Store" >> .gitignore &&
+echo "package-lock.lock" >> .gitignore &&
+echo ".vscode/" >> .gitignore &&
+echo "dist/" >> .gitignore &&
+echo "pkg/" >> .gitignore &&
+echo "build/" >> .gitignore &&
 
 ```
 
