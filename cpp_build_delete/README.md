@@ -20,6 +20,29 @@ g++ -std=c++11 -Wall -Wextra -ggdb -o main main.cpp
 g++ -std=c++23  -O2 -Wall -Wextra -pedantic -pthread -pedantic-errors main.cpp -lm  -latomic  && ./a.out
 ```
 
+- c++2b
+```bash
+g++ -std=c++2b  -O2 -Wall -Wextra -pedantic -pthread -pedantic-errors main.cpp -lm  -latomic  && ./a.out
+
+```
+
+- ```-std=c++20``` 옵션 정리
+```
+error: invalid value 'c++23' in '-std=c++23'
+note: use 'c++98' or 'c++03' for 'ISO C++ 1998 with amendments' standard
+note: use 'gnu++98' or 'gnu++03' for 'ISO C++ 1998 with amendments and GNU extensions' standard
+note: use 'c++11' for 'ISO C++ 2011 with amendments' standard
+note: use 'gnu++11' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+note: use 'c++14' for 'ISO C++ 2014 with amendments' standard
+note: use 'gnu++14' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+note: use 'c++17' for 'ISO C++ 2017 with amendments' standard
+note: use 'gnu++17' for 'ISO C++ 2017 with amendments and GNU extensions' standard
+note: use 'c++20' for 'ISO C++ 2020 DIS' standard
+note: use 'gnu++20' for 'ISO C++ 2020 DIS with GNU extensions' standard
+note: use 'c++2b' for 'Working draft for ISO C++ 2023 DIS' standard
+note: use 'gnu++2b' for 'Working draft for ISO C++ 2023 DIS with GNU extensions' standard
+```
+
 # objdump활용법
 
 ARM Aseembly(M1 Pro MacBook test)
