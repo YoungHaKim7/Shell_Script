@@ -14,6 +14,12 @@ g++ -g -O3 -std=c++11 -Wall -Wextra -pedantic -Wformat=2 -op -Weffc++ -Wold-styl
 g++ -std=c++11 -Wall -Wextra -ggdb -o main main.cpp
 ```
 
+# build3.sh(c++23)
+
+```bash
+g++ -std=c++23  -O2 -Wall -Wextra -pedantic -pthread -pedantic-errors main.cpp -lm  -latomic  && ./a.out
+```
+
 # objdump활용법
 
 ARM Aseembly(M1 Pro MacBook test)
