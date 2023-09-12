@@ -25,6 +25,16 @@ echo "build/" >> .gitignore &&
 
 <hr>
 
+# ```echo``` 유니코드 출력하기
+
+```
+echo $'\uf115'
+```
+
+
+<hr>
+
+
 # Power10k Install
 
 https://economiceco.tistory.com/m/16511
