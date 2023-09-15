@@ -35,7 +35,7 @@ echo "pkg/" >> .gitignore &&
 - ```WindowsOS```
 
 ```
-echo "# Result" "" "``````" >> README.md && echo "``````" >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore
+echo "# Result" "" "``````" >> README.md && echo " " >> README.md && echo "" "``````" >> README.md && echo "/target" >> .gitignore && echo "Cargo.lock" >> .gitignore
 ```
 
 # TypeScript .gitignore
