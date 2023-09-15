@@ -67,7 +67,7 @@ echo "build/" >> .gitignore &&
 
 <hr>
 
-# ```echo``` 유니코드 출력하기
+# ```echo``` 에코(echo)로 유니코드(Unicode) 출력하기
 
 ```
 echo $'\uf115'
