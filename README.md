@@ -34,10 +34,9 @@ echo "# MSVC Windows builds of rustc generate these, which store debugging infor
 echo "*.pdb\xa" >> .gitignore &&
 
 echo "# WASM" >> .gitignore &&
-echo "/pkg" >> .gitignore &&
+echo "pkg/" >> .gitignore &&
 echo "/wasm-pack.log" >> .gitignore &&
-echo "dist/" >> .gitignore &&
-echo "pkg/" >> .gitignore
+echo "dist/" >> .gitignore
 ```
 
 - ```WindowsOS```(PowerShell)
