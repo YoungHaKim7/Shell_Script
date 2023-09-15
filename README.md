@@ -1,3 +1,11 @@
+# A collection of useful .gitignore templates 
+
+- ```.gitignore```세팅 언어별로 다 정리되어 있다. 굿 👍💕🙌
+
+  - https://github.com/github/gitignore/
+
+<hr>
+
 # Rust .gitignore
 
 ```bash
