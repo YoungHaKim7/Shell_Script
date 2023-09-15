@@ -34,7 +34,8 @@ echo "pkg/" >> .gitignore &&
 - ```WindowsOS```(PowerShell)
 
 ```
-echo "# Result`r`n`r`n```````n`r`n```````n" >> README.md && echo "/target`r`nCargo.lock`r`n" >> .gitignore
+echo "# Result`r`n`r`n```````n`r`n```````n" >> README.md &&
+echo "/target`r`nCargo.lock`r`n" >> .gitignore
 ```
 
 https://devblogs.microsoft.com/scripting/powertip-new-lines-with-powershell/
