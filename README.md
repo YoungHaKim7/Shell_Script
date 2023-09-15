@@ -79,7 +79,7 @@ Cargo.lock
 *.pdb
 ```
 
-- WASM + Rust
+- WASM + Rust```.gitignore```
 ```bash
 # A collection of useful .gitignore templates 
 # https://github.com/github/gitignore
