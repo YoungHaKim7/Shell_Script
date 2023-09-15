@@ -28,7 +28,7 @@ echo "# MSVC Windows builds of rustc generate these, which store debugging infor
 echo "*.pdb" >> .gitignore &&
 
 echo "dist/" >> .gitignore &&
-echo "pkg/" >> .gitignore &&
+echo "pkg/" >> .gitignore
 ```
 
 - ```WindowsOS```(PowerShell)
