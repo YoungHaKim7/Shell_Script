@@ -33,6 +33,9 @@ echo "**/*.rs.bk\xa" >> .gitignore &&
 echo "# MSVC Windows builds of rustc generate these, which store debugging information" >> .gitignore &&
 echo "*.pdb\xa" >> .gitignore &&
 
+echo "# WASM" >> .gitignore &&
+echo "/pkg" >> .gitignore &&
+echo "/wasm-pack.log" >> .gitignore &&
 echo "dist/" >> .gitignore &&
 echo "pkg/" >> .gitignore
 ```
