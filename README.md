@@ -122,7 +122,7 @@ echo "package-lock.lock" >> .gitignore &&
 echo ".vscode/" >> .gitignore &&
 echo "dist/" >> .gitignore &&
 echo "pkg/" >> .gitignore &&
-echo "build/" >> .gitignore &&
+echo "build/" >> .gitignore
 
 ```
 
