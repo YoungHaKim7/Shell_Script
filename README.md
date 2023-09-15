@@ -6,7 +6,7 @@
 
 <hr>
 
-# Rust .gitignore
+# Rust .gitignore(macOS, LinuxOS)
 
 ```bash
 echo "/target" >> .gitignore &&
