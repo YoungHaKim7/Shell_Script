@@ -139,7 +139,7 @@ echo "/release/" >> .gitignore &&
 echo "/debug/" >> .gitignore &&
 echo "/build/" >> .gitignore &&
 echo "/build-*/" >> .gitignore &&
-echo "/docgen_tmp/\xa" >> .gitignore &&
+echo "/docgen_tmp/\xa" >> .gitignore
 ```
 
 - Zig ```.gitignore```
