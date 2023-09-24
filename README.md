@@ -221,7 +221,7 @@ echo "*.su" >> .gitignore &&
 echo "*.idb" >> .gitignore &&
 echo "*.pdb\xa" >> .gitignore &&
 
-echo "# Kernel Module Compile Results
+echo "# Kernel Module Compile Results" >> .gitignore &&
 echo "*.mod*" >> .gitignore &&
 echo "*.cmd" >> .gitignore &&
 echo ".tmp_versions/" >> .gitignore &&
