@@ -181,6 +181,8 @@ dkms.conf
 - echo
 
 ```
+echo "# Result\xa\xa\x60\x60\x60\xa\xa\x60\x60\x60" >> README.md &&
+
 echo "# macOS general" >> .gitignore &&
 echo ".DS_Store\xa" >> .gitignore &&
 
