@@ -121,6 +121,9 @@ dist/
 
 
 ```
+# macOS general
+.DS_Store
+
 # Prerequisites
 *.d
 
@@ -158,6 +161,7 @@ dist/
 *.i*86
 *.x86_64
 *.hex
+main
 
 # Debug files
 *.dSYM/
