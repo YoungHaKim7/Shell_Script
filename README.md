@@ -178,7 +178,7 @@ dkms.conf
 
 ```
 echo "# macOS general" >> .gitignore &&
-echo ".DS_Store\x" >> .gitignore &&
+echo ".DS_Store\xa" >> .gitignore &&
 
 echo "# Prerequisites" >> .gitignore &&
 echo "*.d\xa" >> .gitignore &&
