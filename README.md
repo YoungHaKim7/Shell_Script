@@ -177,6 +177,9 @@ dkms.conf
 - echo
 
 ```
+echo "# macOS general" >> .gitignore &&
+echo ".DS_Store\x" >> .gitignore &&
+
 echo "# Prerequisites" >> .gitignore &&
 echo "*.d\xa" >> .gitignore &&
 
@@ -213,7 +216,8 @@ echo "*.out" >> .gitignore &&
 echo "*.app" >> .gitignore &&
 echo "*.i*86" >> .gitignore &&
 echo "*.x86_64" >> .gitignore &&
-echo "*.hex\xa" >> .gitignore &&
+echo "*.hex" >> .gitignore &&
+echo "main\xa" >> .gitignore &&
 
 echo "# Debug files" >> .gitignore &&
 echo "*.dSYM/" >> .gitignore &&
