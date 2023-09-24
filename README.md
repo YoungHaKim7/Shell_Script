@@ -228,7 +228,7 @@ echo ".tmp_versions/" >> .gitignore &&
 echo "modules.order" >> .gitignore &&
 echo "Module.symvers" >> .gitignore &&
 echo "Mkfile.old" >> .gitignore &&
-echo "dkms.conf" >> .gitignore &&
+echo "dkms.conf" >> .gitignore
 
 ```
 
