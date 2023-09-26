@@ -4,6 +4,9 @@
 
   - https://github.com/github/gitignore/
 
+  - gitignore규칙 한글로 잘 정리됨( 모든 폴더 하위폴더까지 적용하는것까지!!)
+    - https://nochoco-lee.tistory.com/46
+
 <hr>
 
 # Rust ```.gitignore``` (macOS, LinuxOS)
