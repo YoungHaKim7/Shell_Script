@@ -1,3 +1,5 @@
+<img width=150px src="https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/70b5096e-e16f-48fa-b7c8-0aa776deacee"/>
+
 # Kotlin_ command linde compile
 
 https://kotlinlang.org/docs/command-line.html#compile-a-library
@@ -119,3 +121,69 @@ Test run finished after 72 ms
 [         0 tests failed          ] 
   
 ```
+
+
+<hr>
+
+# sdk로 자바랑 gradle 버젼 매니져
+
+https://sdkman.io/
+
+```
+// search
+sdk list java
+
+
+// install
+sdk install java17.0.7-jbr
+
+
+// use
+sdk use java17.0.7-jbr
+
+```
+
+```
+sdk use                                                                                                                      ─╯
+
+No candidate version provided.
+
+Usage: sdk <command> [candidate] [version]
+       sdk offline <enable|disable>
+
+   commands:
+       install   or i    <candidate> [version] [local-path]
+       uninstall or rm   <candidate> <version>
+       list      or ls   [candidate]
+       use       or u    <candidate> <version>
+       config
+       default   or d    <candidate> [version]
+       home      or h    <candidate> <version>
+       env       or e    [init|install|clear]
+       current   or c    [candidate]
+       upgrade   or ug   [candidate]
+       version   or v
+       help
+       offline           [enable|disable]
+       selfupdate        [force]
+       update
+       flush             [tmp|metadata|version]
+
+   candidate  :  the SDK to install: groovy, scala, grails, gradle, kotlin, etc.
+                 use list command for comprehensive list of candidates
+                 eg: $ sdk list
+   version    :  where optional, defaults to latest stable if not provided
+                 eg: $ sdk install groovy
+   local-path :  optional path to an existing local installation
+                 eg: $ sdk install groovy 2.4.13-local /opt/groovy-2.4.13
+```
+
+
+- kotlin gradle로 프로젝트 만들기 
+
+```
+gradle init --type=kotlin-application 
+```
+
+
+<hr>
