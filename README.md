@@ -338,16 +338,16 @@ gradle-app.setting
 ```
 echo ".gradle" >> .gitignore &&
 echo "**/build/" >> .gitignore &&
-echo "!src/**/build/\xa" >> .gitignore &&
+echo "\x21src/**/build/\xa" >> .gitignore &&
 
 echo "# Ignore Gradle GUI config" >> .gitignore &&
 echo "gradle-app.setting\xa" >> .gitignore &&
 
 echo "# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)" >> .gitignore &&
-echo "!gradle-wrapper.jar\xa" >> .gitignore &&
+echo "\x21gradle-wrapper.jar\xa" >> .gitignore &&
 
 echo "# Avoid ignore Gradle wrappper properties" >> .gitignore &&
-echo "!gradle-wrapper.properties\xa" >> .gitignore &&
+echo "\x21gradle-wrapper.properties\xa" >> .gitignore &&
 
 echo "# Cache of project" >> .gitignore &&
 echo ".gradletasknamecache\xa" >> .gitignore &&
