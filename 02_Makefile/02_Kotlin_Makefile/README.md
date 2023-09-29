@@ -1,4 +1,15 @@
-# make sample
+# make sample(Kotlin Compile)
+
+```Makefile
+run:
+		kotlinc src/Main.kt -include-runtime -d out/Main.jar
+		java -jar out/Main.jar
+clean:
+		rm -rf out
+```
+
+
+# make sample(Test)
 
 - ```make``` or ```make run```
 
