@@ -341,7 +341,7 @@ echo "**/build/" >> .gitignore &&
 echo "!src/**/build/\xa" >> .gitignore &&
 
 echo "# Ignore Gradle GUI config" >> .gitignore &&
-echo "gradle-app.setting\xa" >> .gitignore" &&
+echo "gradle-app.setting\xa" >> .gitignore &&
 
 echo "# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)" >> .gitignore &&
 echo "!gradle-wrapper.jar\xa" >> .gitignore &&
@@ -356,7 +356,7 @@ echo "# Eclipse Gradle plugin generated files" >> .gitignore &&
 echo "# Eclipse Core" >> .gitignore &&
 echo ".project" >> .gitignore &&
 echo "# JDT-specific (Eclipse Java Development Tools)" >> .gitignore &&
-echo ".classpath" >> .gitignore &&
+echo ".classpath" >> .gitignore
 ```
 
 
