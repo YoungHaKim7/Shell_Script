@@ -179,11 +179,22 @@ Usage: sdk <command> [candidate] [version]
 ```
 
 
-- kotlin gradle로 프로젝트 만들기 
+# kotlin gradle로 프로젝트 만들기 ```grandle```
 
 ```
-gradle init --type=kotlin-application 
+// init
+gradle init --type=kotlin-application
+
+
+// build   -> 디버그 할때 빌드 부터 꼭 먼저 해 줘야 갱신된다.
+gradle build
+
+
+
+// run
+gradle run
 ```
+
 
 
 <hr>
