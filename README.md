@@ -464,8 +464,8 @@ https://github.com/zsh-users/zsh-autosuggestions
 
 https://github.com/zsh-users/zsh-syntax-highlighting
 
-- zsh-autosuggest 글씨 색깔 바꾸기
- -https://stackoverflow.com/questions/47310537/how-to-change-zsh-autosuggestions-color
+- zsh-autosuggestions 글씨 색깔 바꾸기
+  - https://stackoverflow.com/questions/47310537/how-to-change-zsh-autosuggestions-color
 
 - 8. path 관리는
 
