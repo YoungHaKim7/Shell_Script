@@ -1,3 +1,9 @@
+# link
+
+- [fishshell용-echo로-gitignore넣기](#fishshell용-echo로-gitignore넣기)
+
+<hr>
+
 # PATH(bash)
 
 ```
@@ -16,13 +22,13 @@ vi /etc/bash.bashrc
 <hr>
 
 
-# `.DS_Store`만 gitignore[[🔝]](#rust-snippets_gyoung)
+# `.DS_Store`만 gitignore[[🔝]](#link)
 
 ```bash
 echo ".DS_Store" >> .gitignore 
 ```
 
-# fishshell용 echo로 gitignore넣기[[🔝]](#rust-snippets_gyoung)
+# fishshell용 echo로 gitignore넣기[[🔝]](#link)
 
 ```
 echo "# Result" >> README.md &&
@@ -310,7 +316,7 @@ echo "dkms.conf" >> .gitignore
 
 <hr>
 
-# Zig ```.gitignore```
+# Zig ```.gitignore```[[🔝]](#link)
 
 ```
 echo "# Result\xa\xa\x60\x60\x60\xa\xa\x60\x60\x60" >> README.md &&
@@ -335,7 +341,7 @@ echo "/build-*/" >> .gitignore &&
 echo "/docgen_tmp/\xa" >> .gitignore
 ```
 
-- Zig ```.gitignore```
+- Zig ```.gitignore```[[🔝]](#link)
 
 ```
 # This file is for zig-specific build artifacts.
@@ -368,7 +374,7 @@ https://github.com/github/gitignore/pull/3442
 
 <hr>
 
-# Java & Kotlin ```.gitignore```
+# Java & Kotlin ```.gitignore```[[🔝]](#link)
 
 ```
 .gradle
@@ -425,7 +431,7 @@ echo ".classpath" >> .gitignore
 
 <hr>
 
-# TypeScript ```.gitignore```
+# TypeScript ```.gitignore```[[🔝]](#link)
 
 ```bash
 echo "node_modules/" >> .gitignore &&
@@ -440,7 +446,7 @@ echo "build/" >> .gitignore
 
 <hr>
 
-# ```echo``` 에코(echo)로 유니코드(Unicode) 출력하기
+# ```echo``` 에코(echo)로 유니코드(Unicode) 출력하기[[🔝]](#link)
 
 ```
 echo $'\uf115'
@@ -450,7 +456,7 @@ echo $'\uf115'
 <hr>
 
 
-# Power10k Install
+# Power10k Install[[🔝]](#link)
 
 https://economiceco.tistory.com/m/16511
 
