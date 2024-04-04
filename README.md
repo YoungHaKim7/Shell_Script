@@ -42,7 +42,7 @@ echo "# Visual Studio 2015/2017 cache/options directory" >> .gitignore &&
 echo ".vs/" >> .gitignore &&
 echo "" >> .gitignore &&
 echo "# A collection of useful .gitignore templates " >> .gitignore &&
-echo "# https://github.com/github/gitignore\xa" >> .gitignore &&
+echo "# https://github.com/github/gitignore" >> .gitignore &&
 echo "# General" >> .gitignore &&
 echo ".DS_Store" >> .gitignore &&
 echo "dir/otherdir/.DS_Store" >> .gitignore &&
