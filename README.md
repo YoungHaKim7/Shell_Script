@@ -7,6 +7,11 @@
 # shell script 기초
 
 ```
+#!/bin/sh
+echo -e "Hello\n$NAME!" #개행된다.
+```
+
+```
 #!/bin/bash
 echo -e "Hello\n$NAME!" #개행된다.
 ```
