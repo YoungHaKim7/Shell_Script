@@ -4,6 +4,15 @@
 
 <hr>
 
+# shell script 기초
+
+```
+#!/bin/bash
+echo -e "Hello\n$NAME!" #개행된다.
+```
+
+https://fopman.tistory.com/137
+
 # PATH(bash)
 
 ```
