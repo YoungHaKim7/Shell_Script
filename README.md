@@ -656,6 +656,24 @@ Options:
 005953f5: 0000 00  
 ```
 
+- 내가 원하는 라인 tail과 head활용
+
+```bash
+$ xxd -s 0x00595335 rust_stop_watch_youtube_pomodoro_timer | head -n 5
+00595335: 41b1 d9db a764 19c9 a3ee e788 1920 9b8d  A....d....... ..
+00595345: e0cb 62df 151e f065 63c0 fbcd 6c4e 7922  ..b....ec...lNy"
+00595355: 2af5 38b7 1031 d2f9 3c50 c2bc ca07 9596  *.8..1..<P......
+00595365: 49c0 e4ee 6ce3 026d 609d f1f8 a3cf e03b  I...l..m`......;
+00595375: 1cf0 dbac 7ea0 4b77 dee4 51d6 f6a6 e1a3  ....~.Kw..Q.....
+
+
+$ xxd -s 0x00595335 rust_stop_watch_youtube_pomodoro_timer | tail -n 3
+005953d5: 00db 573e c9e2 0a42 403c 1f53 a807 a479  ..W>...B@<.S...y
+005953e5: 25c7 25d1 9a3d 7c4e b28d ae16 7e7e 7f00  %.%..=|N....~~..
+005953f5: 0000 00 
+```
+
+
 <hr>
 
 # Regular Expression
